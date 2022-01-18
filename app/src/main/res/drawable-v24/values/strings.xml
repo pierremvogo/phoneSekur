@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PhoneSekur App</string>
+    <string name="title_home">PhoneSekur</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mess">message1</string>
+    <string name="Configurations">
+         <u><b>Configurations:</b></u>
+    </string>
+    <string name="Signaler">
+        <u><b>Signaler Un Numéro: </b></u>
+    </string>
+</resources>
