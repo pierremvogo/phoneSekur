@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "592579169907",
+    "firebase_url": "https://realchat1-92dc0.firebaseio.com",
+    "project_id": "realchat1-92dc0",
+    "storage_bucket": "realchat1-92dc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592579169907:android:0e22b164ac3358b49b6406",
+        "android_client_info": {
+          "package_name": "com.example.phonesekur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592579169907-rjjmcf7895ekigdeg1uf7n722jbvok61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5-lIqDOP0Z3Ag8PXdrEphD5v6TLlfUvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592579169907-rjjmcf7895ekigdeg1uf7n722jbvok61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

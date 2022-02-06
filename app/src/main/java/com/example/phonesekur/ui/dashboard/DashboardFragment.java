@@ -31,6 +31,7 @@ public class DashboardFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+        Infos.active = 1;
         dashboardViewModel =
                 new ViewModelProvider(this).get(DashboardViewModel.class);
 
@@ -73,10 +74,6 @@ public class DashboardFragment extends Fragment {
         catch (Exception e){
             Toast.makeText(getContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
         }
-
-
-
-
 
         try{
             switch_blockSms.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -124,9 +121,6 @@ public class DashboardFragment extends Fragment {
         }catch (Exception e){
             Toast.makeText(getContext(),"Methode 2  " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
-
-
-
 
         return root;
     }
